@@ -8,6 +8,9 @@ This a local library for Altium Designer of all components used during EC projec
 
 ### Parameters
 
+![parameters](img/prm.png)
+![more parameters](img/prm2.png)
+
 ### Categories
 
 | **Category** | **Sub-Category** | **Designator** |
