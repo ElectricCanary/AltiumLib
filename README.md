@@ -6,6 +6,25 @@ This a local library for Altium Designer of all components used during EC projec
 
 ## Schematic
 
+### Pins
+
+- Pins should be separated by 200mil minimum, except when they'll be explicitly connected to the same net.
+In that case 100mil is acceptable.  
+- Pin length should be 200mil.  
+- All pins of the package should be instantiated, exception can be made for components that aren't presented in box format, like transistors.
+- Electrical type is passive for all pins.
+
+### Graphics
+
+- Component should be as centered as possible on the sheet.
+- Boxes should be all the same yellow color and red borders.
+- Pins can go on all 4 sides of a box component.
+- Usually up is for VCC and reset, down is for ground, left is for input and right is for output.
+
+Here's an exemple:
+
+![Schematic](img/sch.png)
+
 ### Parameters
 
 Required parameters for all components are:
