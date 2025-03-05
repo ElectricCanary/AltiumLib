@@ -32,6 +32,8 @@ Here's some exemples of parameters:
 |--------------|------------------|----------------|
 | Resistor     | SMD              | R?             |
 |              | Pot              | VR?            |
+|              | THT              | R?             |
+|              | Fuse             | F?             |
 |              |                  |                |
 | Capacitor    | MLCC             | C?             |
 |              | Film             | C?             |
@@ -51,6 +53,7 @@ Here's some exemples of parameters:
 |              | Logic            | U?             |
 |              | Comparator       | U?             |
 |              | Sensor           | U?             |
+|              | Optical          | U?             |
 |              |                  |                |
 | Switch       | Mechanical       | SW?            |
 |              | Relay            | RL?            |
@@ -61,6 +64,9 @@ Here's some exemples of parameters:
 |              | Jack             | J?             |
 |              | FPC              | J?             |
 |              | Header           | J?             |
+|              | RJ45             | J?             |
+|              | Bloc             | J?             |
+|              | Coax             | J?             |
 |              |                  |                |
 | Transistor   | MOSFET           | Q?             |
 |              | BJT              | Q?             |
@@ -71,6 +77,12 @@ Here's some exemples of parameters:
 |              | Power            | D?             |
 |              |                  |                |
 | Module       | Display          | DISP?          |
+|              | CPU              | U?             |
+|              | Amp              | U?             |
+|              |                  |                |
+| Mechanical   | Screw            | M?             |
+|              | Test Point       | M?             |
+|              | Spacer           | M?             |
 
 ## Footprints
 
