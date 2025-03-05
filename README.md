@@ -8,9 +8,11 @@ This a local library for Altium Designer of all components used during EC projec
 
 ### Pins
 
+- Pin designator relates to the footprint pad.
+- Pin name relates to the pin function in the component's datasheet.
+- Pin length should be 200mil. 
 - Pins should be separated by 200mil minimum, except when they'll be explicitly connected to the same net.
-In that case 100mil is acceptable.  
-- Pin length should be 200mil.  
+In that case 100mil is acceptable.
 - All pins of the package should be instantiated, exception can be made for components that aren't presented in box format, like transistors.
 - Electrical type is passive for all pins.
 
@@ -24,6 +26,7 @@ In that case 100mil is acceptable.
 Here's an exemple:
 
 ![Schematic](img/sch.png)
+
 
 ### Parameters
 
