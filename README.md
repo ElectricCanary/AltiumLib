@@ -108,4 +108,52 @@ Here's some exemples of parameters:
 
 ## Footprints
 
-### Layers
+- Vias hole should be at least 0.3mm
+- Pad 1 should be square if possible
+
+![Layers](img/layers.png)
+
+![All Layers](img/alllayers.png)
+
+The footprints use different single mechanical layers to convey information about the component.
+Here's a list of the layers used:
+
+### Layer 2: Designator
+
+This layer is used to display the component's designator for assembly drawing.  
+Simply put a text containing ".Designator" on this layer. The text is in default font, centered on the component, stroke width should be 20% of the text height.
+The text size should roughly match the component's assembly size.
+
+![Layer 2](img/layer2.png)
+
+### Layer 5: Assembly
+
+This layer is used to display the component's physical size. Any space that the component occupies should be drawn.  
+This is the shape that will be drawn on the assembly drawing along with the designator.
+
+![Layer 5](img/layer5.png)
+
+### Layer 6: Dimensions (optional)
+
+This layer is used to display important dimension of the PCB project. **Most components don't need to used this layer.**  
+However, mechanical components, like screws cans use this layer to display the dimensions of the screw holes or other important dimensions.
+
+### Layer 13: 3D Body
+
+This layer is used to add the step file containing the 3D body of the component. Almost all components should have a 3D representation.  
+Most step files can be found on the manufacturer's website or on [3dcontentcentral](https://www.3dcontentcentral.com).
+
+![Layer 13](img/layer13.png)
+
+### Layer 15: Courtyard
+
+Courtyard is a box to indicate a perimeter of caution around the component and it's overlay.  
+For through hole components it's a perimeter of 5mm. For SMD components it's a perimeter of 0.25mm.
+
+![Layer 15](img/layer15.png)
+
+### Layer 16: Component center
+
+This layer is used to indicate the center of the component with two 2mm lines forming a cross.
+
+![Layer 16](img/layer16.png)
