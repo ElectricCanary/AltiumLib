@@ -129,7 +129,8 @@ The text size should roughly match the component's assembly size.
 ### Layer 5: Assembly
 
 This layer is used to display the component's physical size. Any space that the component occupies should be drawn.  
-This is the shape that will be drawn on the assembly drawing along with the designator.
+This is the shape that will be drawn on the assembly drawing along with the designator. The lines must be 0.2mm thick.
+If it's not obvious, an orientating sign can be added (+ for electrolytic capacitors, pin 1 of ICs, etc.).
 
 ![Layer 5](img/layer5.png)
 
@@ -149,11 +150,12 @@ Most step files can be found on the manufacturer's website or on [3dcontentcentr
 
 Courtyard is a box to indicate a perimeter of caution around the component and it's overlay.  
 For through hole components it's a perimeter of 5mm. For SMD components it's a perimeter of 0.25mm.
+Lines must be 0.2mm thick.
 
 ![Layer 15](img/layer15.png)
 
 ### Layer 16: Component center
 
-This layer is used to indicate the center of the component with two 2mm lines forming a cross.
+This layer is used to indicate the center of the component with two 2mm lines, 0.2mm thick, forming a cross.
 
 ![Layer 16](img/layer16.png)
