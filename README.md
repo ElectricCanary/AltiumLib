@@ -101,6 +101,7 @@ Here's some exemples of parameters:
 | Module       | Display          | DISP?          |
 |              | CPU              | U?             |
 |              | Amp              | U?             |
+|              | Com              | U?             |
 |              |                  |                |
 | Mechanical   | Screw            | M?             |
 |              | Test Point       | M?             |
